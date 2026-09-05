@@ -1,0 +1,74 @@
+# ==========================================
+# Git Ignore Rules for SIF AI Project
+# Tech Stack: Python (FastAPI, PyTorch), React (Vite, Tailwind), SQLite
+# ==========================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend Build Outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+.vite/
+frontend/.vite/
+.next/
+.cache/
+
+# Package Manager Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+
+# Databases & Runtime Storage
+*.db
+*.sqlite
+*.sqlite3
+sif.db
+
+# Machine Learning Models & Large Artifacts (>50MB)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# Operating System & IDE Files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
