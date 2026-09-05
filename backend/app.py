@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 # ---------------- Load Model ----------------
-MODEL_PATH = "darsh90844/sif_model"
+MODEL_PATH = "darsh90844/sif"
 
 tokenizer = DistilBertTokenizer.from_pretrained(MODEL_PATH)
 model = DistilBertForSequenceClassification.from_pretrained(MODEL_PATH)
