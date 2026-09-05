@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "@supabase/supabase-js": "^2.115.0"
+  "name": "sif-ai-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm run dev"
   }
 }
